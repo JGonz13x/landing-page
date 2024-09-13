@@ -3,91 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Landing Page</title>
-    <link rel="stylesheet href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <div class="header-logo">Header Logo</div>
-        <div class="primary-navigation-bar">
-          <div class="header-link-one">header link one</div>
-          <div class="header-link-two">header link two</div>
-          <div class="header-tink-three">header link three</div>
-        </div>
-      </div>
-      <div class="hero">
-        <div class="hero-info">
-          <div class="hero-title">This website is awesome</div>
+    <header>
+      <div class="header-logo"><a href="index.html" class="header-content"><img src="/assets/img/logo.jpg" alt="hand bloom logo" width="80px" class="logo-img"> <h1 class="header-text">Hand Bloom</h1> </a></div>
+      <nav class="header-nav">
+        <ul class="header-nav-links">
+          <li ><a href="index.html" class="header-link">Home</a></li>
+          <li><a href="#"class="header-link" >Contact</a></li>
+          <li><a href="#"class="header-link">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="hero">
+        <div class="hero-content">
           <div class="hero-description">
-            This website has some subtext that goes here under the main title.
-            it's a smaller font and the color is lower contrast
+            <h2 class="hero-title">Handcrafted Floral Art.</h2>
+            <p class="hero-title-description">
+              Hand Bloom redefines floral art with stunning, handcrafted designs. Elevate your space with our elegant, unique blooms.
+            </p>
+            <button class="hero-signup-button">Order now!</button>
           </div>
-          <button class="hero-signup-button">Sign up</button>
-        </div>
-        <div class="hero-placeholder-image">
-          <div class="hero-placeholder-image-note">
-            this is a placeholder for an image
+          <div class="hero-image-container">
+<img src="/assets/img/placeholder.jpg" alt="pink rose" class="hero-image">
           </div>
-        </div>
-      </div>
-      <div class="info">
-        <div class="info-title">Some random information</div>
-        <div class="info-content">
-          <div class="info-item-1">
-            <div class="info-image-1"></div>
-            <div class="info-subset-1">
-              this is some subtext under an illustration or image
-            </div>
-          </div>
-          <div class="info-item-2">
-            <div class="info-image-2"></div>
-            <div class="info-subset-2">
-              this is some subtext under an illustration or image
-            </div>
-          </div>
-          <div class="info-item-3">
-            <div class="info-image-3"></div>
-            <div class="info-subset-3">
-              this is some subtext under an illustration or image
-            </div>
-          </div>
-          <div class="info-item-4">
-            <div class="info-image-4"></div>
-            <div class="info-subset-4">
-              this is some subtext under an illustration or image
-            </div>
+
           </div>
         </div>
-      </div>
-      <div class="quotes">
-        <div class="quotes-content">
-          <div class="quotes-text">
-            This is an inspiring quote, or a testimonial from a customer. Maybe
-            it's just filling up space, or maybe people will actually read it.
-            Wgo knows? All I know is that it looks nice.
+      </section>
+      <section class="information">
+        <h2 class="information-title">Samples</h2>
+        <div class="information-content">
+          <div class="information-item">
+            <img src="/assets/img/sample-one.jpg" alt="sample one" class="information-image"></img>
+            <div class="information-image-description">Cotton Candy</div>
           </div>
-          <div class="quotes-author">-Thor, God of Thunder</div>
+          <div class="information-item">
+            <img src="/assets/img/sample-two.jpg" alt="sample one" class="information-image">
+            <div class="information-image-description">Pink Blossom</div>
+          </div>
+          <div class="information-item">
+            <img src="/assets/img/sample-three.jpg" alt="sample one" class="information-image">
+            <div class="information-image-description">Purple Cream</div>
+          </div>
+          <div class="information-item">
+            <img src="/assets/img/sample-four.jpg" alt="sample one" class="information-image">
+            <div class="information-image-description">Sunshine</div>
+          </div>
         </div>
-      </div>
-      <div class="call-to-action">
+      </section>
+      <section class="quote">
+        <p class="quote-text">"I wandered lonely as a cloud that floats on high o'er vales and hills, when all at once I saw a crowd, a host, of golden daffodils."</p>
+        <h2 class="quotes-author">-William Wordsworth</h2>
+      </section>
+      <section class="call-to-action">
         <div class="call-to-action-content">
-          <div class="call-to-action-info">
-            <div class="call-to-action-title">Call to action! It's time!</div>
-            <div class="call-to-action-description">
-              Sign up for our product by clicking that button right over there!
-            </div>
+          <div class="call-to-action-information">
+            <h3 class="call-to-action-title">Call to action! It's time!</h3>
+            <p class="call-to-action-description">Sign up for our product by clicking that button right over there!</p>
           </div>
           <button class="call-to-action-button">Sign up</button>
         </div>
-      </div>
-      <div class="footer">
-        <div class="footer-content">
-          <div class="footer-description">
-            Copyright &copy; The Odin Project 2021
-          </div>
-        </div>
-      </div>
-    </div>
+      </section>
+    </main>
+    <footer>
+      <p class="copyright">Copyright &copy; Hand Bloom 2024</p>
+    </footer>
   </body>
 </html>
